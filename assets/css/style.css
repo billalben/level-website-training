@@ -4,6 +4,8 @@
   --color-text: #898989;
 
   --font-primary: "Open Sans", Helvetica, Arial, sans-serif;
+  --font-bold: 700;
+  --font-light: 400;
   --font-size-text: 0.8125;
   --font-size-title: 1.25rem;
   --font-size-section-title: 3rem;
