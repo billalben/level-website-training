@@ -10,7 +10,26 @@
   --font-size-title: 1.25rem;
   --font-size-section-title: 3rem;
 
-  --size-primary: 1.625rem;
+  --size-primary: 1rem;
   --margin-primary: var(--size-primary);
   --padding-primary: var(--size-primary);
+
+  --height-primary: 5.5rem;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    height: var(--height-primary);
+  }
+
+  .navbar .level-nav-link.nav-link {
+    padding: calc(var(--padding-primary) * 2) var(--padding-primary);
+  }
+}
+.navbar .level-nav-link.nav-link {
+  padding-inline: var(--size-primary);
+}
+.navbar .level-nav-link.nav-link:hover {
+  background-color: var(--color-primary);
+  color: white;
 }
