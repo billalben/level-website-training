@@ -88,3 +88,27 @@
   background-color: white;
   font-size: 0.825rem;
 }
+
+/* ============= Subscribe Section */
+section {
+  padding: 2rem 0;
+}
+.section-color {
+  background: var(--color-primary);
+  color: white;
+}
+.section-title {
+  font-size: var(--font-size-section-title);
+}
+.section-subtitle {
+  font-size: var(--font-size-title);
+}
+.btn-white {
+  border: 2px solid white;
+  color: inherit;
+  padding: 0.5rem 1rem;
+}
+.btn-white:hover {
+  background-color: white;
+  color: var(--color-primary);
+}
