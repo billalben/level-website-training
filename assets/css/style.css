@@ -147,3 +147,20 @@ section {
 .section-gray {
   background-color: var(--color-light);
 }
+.level-slider {
+  background-color: white;
+}
+.level-slider img {
+  width: 100%;
+}
+.level-slider-item-container {
+  padding: 1rem;
+}
+.level-slider-item h3 {
+  font-size: var(--font-size-title);
+  color: var(--color-primary);
+}
+.level-slider-item p {
+  font-size: var(--font-size-text);
+  color: var(--color-text);
+}
