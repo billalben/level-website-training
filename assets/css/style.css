@@ -2,6 +2,7 @@
   --color-primary: #ee5057;
   --color-secondary: #111;
   --color-text: #898989;
+  --color-light: #f4f4f4;
 
   --font-primary: "Open Sans", Helvetica, Arial, sans-serif;
   --font-bold: 700;
@@ -140,4 +141,9 @@ section {
 }
 .btn-fit {
   width: max-content;
+}
+
+/* Slider */
+.section-gray {
+  background-color: var(--color-light);
 }
