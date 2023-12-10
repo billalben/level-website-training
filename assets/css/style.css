@@ -243,7 +243,6 @@ section {
 
 /* Contact */
 .contact-form {
-  max-width: 500px;
   margin: 0 auto;
 }
 .contact-form .form-control {
@@ -254,4 +253,9 @@ section {
 }
 .contact-form .form-group i {
   top: 0.5rem;
+}
+.map-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
 }
