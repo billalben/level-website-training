@@ -23,6 +23,11 @@
   --height-primary: 5.5rem; */
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .navbar {
     height: 5.5rem;
@@ -164,4 +169,41 @@ section {
 .level-slider-item p {
   font-size: var(--font-size-text);
   color: var(--color-text);
+}
+
+/* Places */
+.star-places {
+  background-color: white;
+}
+.star-places-header {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 0.5rem;
+}
+.star-places-header h3 {
+  font-size: var(--font-size-title);
+  font-weight: var(--font-light);
+}
+.star-places-header p {
+  font-size: var(--font-size-text);
+  margin: 0;
+}
+.star-places-body {
+  padding: 1rem;
+}
+.star-places-body a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-light);
+  margin-bottom: 0.5rem;
+  color: var(--color-secondary);
+  transition: background-color 0.3s ease-in;
+}
+.star-places-body a:hover {
+  background-color: #dedcdc;
+}
+.star-places-body h4 {
+  font-size: var(--font-size-title);
 }
